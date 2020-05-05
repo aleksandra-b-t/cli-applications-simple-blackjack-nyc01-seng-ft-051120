@@ -5,6 +5,8 @@ end
 
 def deal_card
   # code #deal_card here
+  puts card;
+  puts card;
 end
 
 def display_card_total
