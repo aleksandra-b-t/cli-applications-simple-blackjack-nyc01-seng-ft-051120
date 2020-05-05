@@ -47,7 +47,9 @@ def hit?
   user_imput = get_user_input
 end
 if user_imput == "h"
-  cure
+  current_card_value += deal_card
+  end
+  return current_card_value
 end
 
 def invalid_command
