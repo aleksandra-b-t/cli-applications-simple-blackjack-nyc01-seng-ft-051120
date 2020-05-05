@@ -33,16 +33,19 @@ def initial_round
   # code #initial_round here
   num1 = deal_card
   num2 = deal_card
-  
+  display_card_total(num1 + num2)
   num1 + num2
 end
 
 def hit?
   # code hit? here
+  prompt_user
+  get_user_input
 end
 
 def invalid_command
   # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
