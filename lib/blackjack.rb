@@ -42,6 +42,7 @@ def hit?
   prompt_user
   user_imput = get_user_input
   while user_imput != "h" && user_imput != "s"
+  invalid_command
 end
 
 def invalid_command
