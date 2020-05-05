@@ -37,7 +37,7 @@ def initial_round
   num1 + num2
 end
 
-def hit?
+def hit? (current_card_value)
   # code hit? here
   prompt_user
   user_imput = get_user_input
