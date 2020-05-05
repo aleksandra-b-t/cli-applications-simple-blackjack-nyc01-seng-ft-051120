@@ -73,6 +73,4 @@ def runner
   
 end
     
-
-    runner
     
