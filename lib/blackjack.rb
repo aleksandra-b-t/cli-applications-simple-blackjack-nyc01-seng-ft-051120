@@ -5,8 +5,7 @@ end
 
 def deal_card
   # code #deal_card here
-  puts card;
-  puts card;
+  cards(1..11)
 end
 
 def display_card_total
