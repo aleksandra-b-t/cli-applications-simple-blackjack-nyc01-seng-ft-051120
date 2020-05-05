@@ -46,7 +46,7 @@ def hit?
   prompt_user
   user_imput = get_user_input
 end
-
+if user_imput == "h"
 end
 
 def invalid_command
