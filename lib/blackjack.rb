@@ -47,6 +47,8 @@ def hit?
   user_imput = get_user_input
 end
 
+end
+
 def invalid_command
   # code invalid_command here
   puts "Please enter a valid command"
