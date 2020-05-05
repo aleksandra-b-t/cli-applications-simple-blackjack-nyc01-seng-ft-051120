@@ -40,8 +40,8 @@ end
 def hit?
   # code hit? here
   prompt_user
-  user imput = get_user_input
-  
+  user_imput = get_user_input
+  while user_imput != "h" && user_imput != "s"
 end
 
 def invalid_command
