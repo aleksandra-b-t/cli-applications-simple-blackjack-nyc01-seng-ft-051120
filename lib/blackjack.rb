@@ -47,6 +47,7 @@ def hit?
   user_imput = get_user_input
 end
 if user_imput == "h"
+  cure
 end
 
 def invalid_command
